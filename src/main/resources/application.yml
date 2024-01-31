@@ -1,0 +1,13 @@
+server:
+   port: 9091
+   
+cloud:
+   aws:
+      region:
+         static: us-east-1
+         auto: false
+      credentials:
+         access-key: something
+         secret-key: somethingElse
+      end-point:
+         uri: https://sqs.us-east-1.amazonaws.com/537309256512/BankQueueFinal
